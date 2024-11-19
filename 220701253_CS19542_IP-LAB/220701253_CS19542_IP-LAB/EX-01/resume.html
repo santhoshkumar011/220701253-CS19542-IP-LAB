@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        /* Internal CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+        }
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .item {
+            flex: 1 1 calc(33.333% - 20px);
+            border: 1px solid #ccc;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        h2, h4, p {
+            margin: 10px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #e9ecef;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="item" id="one">
+            <h2 class="container" id="aboutme">&#10026; ABOUT ME:</h2>
+            <p class="content" id="desc1">
+                I am a computer science undergraduate student with a passion for technology and innovation. I enjoy exploring new programming languages and working on exciting projects. My goal is to leverage my skills to create impactful software solutions and contribute to the ever-evolving field of computer science.
+            </p>
+            <h2 class="content" id="name">Santhosh Kumar R</h2>
+            <h4 class="content" id="role">CS STUDENT</h4>
+        </div>
+        <div class="item" id="two">
+            <img class="content" id="dp" src="good.jpeg" alt="profile photo">
+        </div>
+        <div class="item" id="three">
+            <h2 class="content" id="cont">&#10026; CONTACT ME:</h2>
+            <p class="contact" id="mailid">&#x2709; zyx@gmail.com</p>
+            <p class="contact">&#xf08c; LinkedIn ID</p>
+            <p class="contact">&#x260E; +91 1234567890</p>
+            <p class="contact">&#xf16d; Instagram ID</p>
+            <h2 class="content" id="job">&#10026; JOB GOALS:</h2>
+            <p class="jg" id="jg2">-> Lead innovative AI projects</p>
+            <p class="jg" id="jg1">-> Specialize in Cloud Computing</p>
+            <p class="jg" id="jg0">-> Contribute to sustainable software solutions</p>
+            <h2 class="content" id="ref">&#10026; REFERENCES:</h2>
+            <p class="content" id="p1">Estello Darcy</p>
+            <p class="content" id="p1">CEO, Startup</p>
+            <p class="content" id="p1">Mail: abc@gmail.com</p>
+            <p class="content" id="p1">Phone: 345345xxxx</p>
+            <img id="sign" src="WhatsApp Image 2024-07-20 at 7.59.27 AM (1).jpeg" alt="signature">
+        </div>
+    </div>
+    <h2 class="content" id="edu">&#10026; EDUCATIONAL QUALIFICATION:</h2>
+    <table class="content" id="edtab">
+        <tr>
+            <th>S.NO</th>
+            <th>COURSE NAME</th>
+            <th>BOARD NAME</th>
+            <th>PERCENTAGE</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>HSC</td>
+            <td>CBSE</td>
+            <td>90%</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>SSLC</td>
+            <td>CBSE</td>
+            <td>94%</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Intro to Cloud Computing</td>
+            <td>NPTEL</td>
+            <td>88%</td>
+        </tr>
+    </table>
+    <h2 class="content" id="skill">&#10026; SKILL:</h2>
+    <ul class="content" id="ski">
+        <li class="list">Analytical Thinking: Ability to analyze complex problems and devise effective solutions.</li>
+        <li class="list">Creativity: Innovating and thinking outside the box to develop unique solutions.</li>
+        <li class="list">Collaboration: Working effectively within teams and across disciplines.</li>
+        <li class="list">Leadership: Leading projects and guiding peers toward common goals.</li>
+        <li class="list">Self-Motivation: Taking initiative and being proactive in learning and project work.</li>
+    </ul>
+    <h2 class="content" id="lang">&#10026; LANGUAGES KNOWN:</h2>
+    <ul class="content" id="lanl">
+        <li class="lisl">C</li>
+        <li class="lisl">Java</li>
+        <li class="lisl">HTML</li>
+        <li class="lisl">CSS</li>
+        <li class="lisl">JavaScript</li>
+    </ul>
+</body>
+</html>
