@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Ticket</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <div class="navbar gradient-background">
+        <a href="index.html">Home</a>
+        <a href="movies.html">Movies</a>
+        <a href="booking.html">Booking</a>
+        <a href="contact.html">Contact Us</a>
+    </div>
+
+    <div class="booking-form">
+        <h1>Book Your Movie Ticket</h1>
+        <form>
+            <label for="movie">Movie:</label>
+            <select id="movie" name="movie">
+                <option value="Movie 1">Movie 1</option>
+                <option value="Movie 2">Movie 2</option>
+            </select>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+
+            <label for="time">Time:</label>
+            <select id="time" name="time">
+                <option value="10:00 AM">10:00 AM</option>
+                <option value="1:00 PM">1:00 PM</option>
+                <option value="4:00 PM">4:00 PM</option>
+            </select>
+
+            <label for="quantity">Tickets:</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="10">
+
+            <button type="submit">Confirm Booking</button>
+        </form>
+    </div>
+</body>
+</html>
